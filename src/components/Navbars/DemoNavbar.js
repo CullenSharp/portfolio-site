@@ -125,11 +125,27 @@ class DemoNavbar extends React.Component {
                   </UncontrolledDropdown>
                 </Nav>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
+                <NavItem>
+                    <NavLink
+                      className="nav-link-icon"
+                      href="https://www.linkedin.com/in/cullensharp"
+                      id="tooltip356693867"
+                      target="_blank"
+                    >
+                      <i className="fa fa-linkedin" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        LinkedIn
+                      </span>
+                    </NavLink>
+                    <UncontrolledTooltip delay={0} target="tooltip356693867">
+                      Check out my LinkedIn
+                    </UncontrolledTooltip>
+                  </NavItem>
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
                       href="https://www.instagram.com/kingston_8gig/?hl=en"
-                      id="tooltip356693867"
+                      id="tooltip333589074"
                       target="_blank"
                     >
                       <i className="fa fa-instagram" />
@@ -137,8 +153,8 @@ class DemoNavbar extends React.Component {
                         Instagram
                       </span>
                     </NavLink>
-                    <UncontrolledTooltip delay={0} target="tooltip356693867">
-                      Follow us on Instagram
+                    <UncontrolledTooltip delay={0} target="tooltip333589074">
+                      Follow me on Instagram
                     </UncontrolledTooltip>
                   </NavItem>
                   {/* <NavItem>
@@ -170,7 +186,7 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip112445449">
-                      Star us on Github
+                      Star me on Github
                     </UncontrolledTooltip>
                   </NavItem>
                 </Nav>
