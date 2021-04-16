@@ -32,6 +32,7 @@ ReactDOM.render(
     <Switch>
       <Route path="/" exact render={props => <Profile {...props} />} />
       <Route path="/portfolio" exact render={props => <Portfolio {...props} />}/>
+      <Route path="/how-to" exact render={props => <Index {...props} />}/>
       <Redirect to="/" />
     </Switch>
   </BrowserRouter>,
